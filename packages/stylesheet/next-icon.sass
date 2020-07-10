@@ -1,0 +1,30 @@
+/*
+ * @Author: 卓文理
+ * @Email: zhuowenligg@gmail.com
+ * @Date: 2019-03-14 16:13:05
+ */
+
+@import './common/common.sass'
+@import './common/icon.sass'
+
+[class^='next-icon-'], [class*=' next-icon-']
+    font-family: 'next-icons' !important
+    font-weight: normal
+    font-style: normal
+    font-variant: normal
+    line-height: 1
+    display: inline-block
+    vertical-align: baseline
+    text-transform: none
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+
+.next-icon-loading
+    animation: rotating 1s linear infinite
+
+@keyframes rotating
+    0%
+        transform: rotateZ(0deg)
+    100%
+        transform: rotateZ(360deg)

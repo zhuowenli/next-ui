@@ -1,0 +1,54 @@
+{
+  "name": "nextui",
+  "version": "0.0.1",
+  "description": "The next UI Toolkit for Vue v3.",
+  "main": "packages/nextui.js",
+  "files": [
+    "lib",
+    "packages",
+    "docs",
+    "src"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.4.3",
+    "core-js": "^3.6.5",
+    "mitt": "^1.2.0",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.0-beta.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
+    "@vue/babel-plugin-transform-vue-jsx": "^1.1.2",
+    "@vue/cli-plugin-babel": "^4.4.6",
+    "@vue/cli-plugin-eslint": "^4.4.6",
+    "@vue/cli-plugin-typescript": "~4.4.0",
+    "@vue/cli-service": "^4.4.6",
+    "@vue/compiler-sfc": "^3.0.0-beta.14",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/shared": "^3.0.0-beta.14",
+    "autoprefixer": "^9.8.4",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.4.0",
+    "eslint-config-gaoding": "^1.0.2",
+    "eslint-config-gaoding-vue": "^1.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.2",
+    "typescript": "^3.8.3",
+    "vue-cli-plugin-vue-next": "^0.1.3"
+  }
+}
